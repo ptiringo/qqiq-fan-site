@@ -1,3 +1,9 @@
-QQIQファンサイト
+QQIQ Fan Site
 ===============================
-QQIQのファンサイトを作ります。
+
+Development
+-----------------
+Start Local Web Server
+```
+npm start
+```

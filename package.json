@@ -1,0 +1,19 @@
+{
+  "name": "qqiq-fan-site",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptiringo/qqiq-fan-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptiringo/qqiq-fan-site/issues"
+  },
+  "homepage": "https://github.com/ptiringo/qqiq-fan-site"
+}
