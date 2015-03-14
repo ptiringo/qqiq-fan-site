@@ -1,19 +1,17 @@
 {
   "name": "qqiq-fan-site",
+  "private": true,
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "http-server ./app -a localhost -o"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ptiringo/qqiq-fan-site.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ptiringo/qqiq-fan-site/issues"
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server ./app -a 127.0.0.1 -o"
   },
-  "homepage": "https://github.com/ptiringo/qqiq-fan-site"
+  "devDependencies": {
+    "http-server": "^0.7.5"
+  }
 }
