@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja" ng-app="qqiqApp">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>QQIQ Fan Site</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/app.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
-  <script src="js/controllers.js"></script>
 </head>
+
 <body ng-controller="MusicListCtrl">
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -26,18 +27,38 @@
       <table class="table table-striped">
         <thead>
           <tr>
-            <th>name</th>
-            <th>url</th>
+            <th>Title</th>
+            <th>Release</th>
+            <th>URL</th>
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="music in musics">
-            <td>{{music.name}}</td>
-            <td>{{music.url}}</td>
+          <tr>
+            <td>People's Life</td>
+            <td>2013/04/28</td>
+            <td><a href="https://www.youtube.com/watch?v=_Rluuo988Sc"><i class="fa fa-youtube fa-lg text-danger"></i></a></td>
+          </tr>
+          <tr>
+            <td>RICKENBACKER</td>
+            <td>2013/05/19</td>
+            <td><a href="https://www.youtube.com/watch?v=5cPAMHhtWIc"><i class="fa fa-youtube fa-lg text-danger"></i></a></td>
+          </tr>
+          <tr>
+            <td>TODAY(Before The Dawn)</td>
+            <td>2013/06/02</td>
+            <td><a href="https://www.youtube.com/watch?v=at7CEmFtsM8"><i class="fa fa-youtube fa-lg text-danger"></i></a></td>
+          </tr>
+          <tr>
+            <td>J-ROCK RE-CREATION</td>
+            <td>2013/06/16</td>
+            <td><a href="https://www.youtube.com/watch?v=4vRNNsqVU88"><i class="fa fa-youtube fa-lg text-danger"></i></a></td>
+          </tr>
         </tbody>
       </table>
     </div>
   </div>
 
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
+
 </html>
