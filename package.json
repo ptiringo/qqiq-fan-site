@@ -12,6 +12,8 @@
     "start": "http-server ./app -a 127.0.0.1 -o"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.2",
     "http-server": "^0.8.0"
   },
   "dependencies": {}
