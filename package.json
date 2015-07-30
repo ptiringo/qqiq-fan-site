@@ -9,7 +9,8 @@
   },
   "scripts": {
     "prestart": "npm install",
-    "start": "http-server ./app -a 127.0.0.1 -o"
+    "start": "http-server ./app -a 127.0.0.1 -o",
+    "deploy": "gulp deploy"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
