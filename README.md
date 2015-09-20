@@ -4,7 +4,7 @@ This is the project for an unofficial QQIQ fan site which uses GitHub Pages to p
 
 Development Notes
 -----------------
-### Using Software
+### Using Development Tools
 - [npm](https://www.npmjs.com/)
 - [gulp](http://gulpjs.com/)
 - [EditorConfig](http://editorconfig.org/)
@@ -20,3 +20,7 @@ npm start
 ```
 npm run deploy
 ```
+
+### Using Libraries
+- [Bootstrap](http://getbootstrap.com/)
+- [AngularJS](https://angularjs.org/)
