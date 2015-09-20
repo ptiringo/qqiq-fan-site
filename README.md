@@ -7,6 +7,7 @@ Development Notes
 ### Using Development Tools
 - [npm](https://www.npmjs.com/)
 - [gulp](http://gulpjs.com/)
+  - [gulp-gh-pages](https://github.com/shinnn/gulp-gh-pages)
 - [EditorConfig](http://editorconfig.org/)
 - [http-server](https://github.com/indexzero/http-server)
 
