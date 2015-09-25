@@ -52,44 +52,8 @@
     </div>
   </section>
 
-  <section id="music-page" ng-show="page.isSelected(2)">
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Music List</h1>
-      </div>
-    </div>
-
-    <div class="container" ng-controller="MusicController as music">
-      <div class="row">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Release</th>
-              <th>URL</th>
-              <th>Composer</th>
-              <th>Songwriter</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr ng-repeat="m in music.musics">
-              <td>{{m.title}}</td>
-              <td>{{m.releaseDate | date:'yyyy/MM/dd' }}</td>
-              <td>
-                <a ng-repeat="url in m.urls" href="{{url}}">
-                  <i class="fa fa-youtube fa-lg fa-fw text-danger" ng-show="{{url.indexOf('https://www.youtube.com') == 0}}"></i>
-                  <i class="fa fa-user fa-lg fa-fw text-primary" ng-show="{{url.indexOf('http://www.nicovideo.jp') == 0}}"></i>
-                  <i class="fa fa-soundcloud fa-lg fa-fw text-danger" ng-show="{{url.indexOf('https://soundcloud.com') == 0}}"></i>
-                </a>
-              </td>
-              <td>{{m.composer}}</td>
-              <td>{{m.songwriter}}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
+  <music-page ng-show="page.isSelected(2)">
+  </music-page>
 
   <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

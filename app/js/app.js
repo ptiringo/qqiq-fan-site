@@ -12,8 +12,15 @@
     };
   });
 
-  app.controller("MusicController", function() {
-    this.musics = musics;
+  app.directive("musicPage", function() {
+    return {
+      restrict: "E",
+      templateUrl: "html/music-page.html",
+      controller: function() {
+        this.musics = musics;
+      },
+      controllerAs: "music"
+    };
   });
 
   var musics = [{
